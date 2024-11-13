@@ -10,7 +10,7 @@
     }
  
     .card{
-        @apply bg-[#2D3142] md:w-72 py-7 px-4 text-white rounded-lg shadow-xl shadow-[#282626] transition-all delay-200 hover:scale-105 hover:shadow-md hover:shadow-[#4e5e38] h-[300px] overflow-hidden;
+        @apply bg-[#2D3142] md:w-72 py-7 px-4 text-white rounded-lg shadow-xl shadow-[#2D3142] transition-all delay-200 duration-150 hover:scale-105 hover:shadow-md hover:shadow-[#4e5e38] h-[300px] overflow-hidden;
     }
 
     .nav-h5{
