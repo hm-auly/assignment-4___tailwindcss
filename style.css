@@ -24,6 +24,8 @@
     .btn-1{
 	    @apply duration-500 active:scale-95 hover:text-white;
     }
+
+
  }
 
 body{
@@ -47,4 +49,9 @@ body{
 		box-shadow: 0 0 5px cyan, 0 0 5px cyan, 0 0 50px cyan, 0 0 10px cyan, 0 0 10px cyan;
 		background: linear-gradient(115deg,#4fcf70,#fad648, #a767e5, #12bcfe,#44ce7b);
     }
+    .button:hover {
+        color: #516d91;
+        background-color: #E5EDF5;
+        box-shadow: -2px -1px 8px 0px #ffffff, 2px 1px 8px 0px rgb(95 157 231 / 48%);
+       }
 } 
