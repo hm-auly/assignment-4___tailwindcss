@@ -1,3 +1,50 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+/* @layer utilities{
+    .btn{
+        @apply  rounded-full  py-1 px-3 hover:shadow-2xl transition-all hover:scale-x-105 hover:bg-[#e6e0e0] hover:text-gray-600;
+    }
+
+    .card{
+        @apply bg-[#2D3142] md:w-72 py-7 px-4 text-white rounded-lg shadow-xl shadow-[#282626] transition-all delay-200 hover:scale-105 hover:shadow-md hover:shadow-[#4e5e38] h-[300px] overflow-hidden;
+    }
+
+    .nav-h5{
+        @apply font-black font-serif pb-3 text-center md:text-start text-[17px];
+    }
+
+    .nav-ul{
+        @apply font-medium flex flex-col gap-3 items-center md:items-start;
+    }
+
+    .btn-1{
+	    @apply duration-500;
+}
+
+*/
+body{
+    .banner{
+        background-image: url("images/banner.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 550px;
+        border-bottom: ;
+    }
+    .banner-div{
+        width: 100%;
+        height: px;
+        top: 560px;
+        left: -284px;
+        background-color: #FAFAFA;
+    }
+
+    .btn-1:hover{
+		box-shadow: 0 0 5px cyan, 0 0 5px cyan, 0 0 50px cyan, 0 0 10px cyan, 0 0 10px cyan;
+		background: linear-gradient(115deg,#4fcf70,#fad648, #a767e5, #12bcfe,#44ce7b);
+    }
+} 
